@@ -1,0 +1,15 @@
+.head{
+    width: 70%;
+    height: 15rem;
+    background: rgba(21, 51, 41, 0.205);
+    padding: 3rem;
+    margin-top: 5rem;
+    padding-left: 17rem;
+}
+.middle{
+    position: absolute;
+    width: 70%;
+    height: 20rem;
+    background-color:  rgba(28, 82, 64, 0.301);
+    margin-top: 22rem;
+}

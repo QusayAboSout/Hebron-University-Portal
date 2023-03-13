@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Boot/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/2 - Plan.css">
+    <link rel="stylesheet" href="../CSS/6 - Massaging.css">
+    <script src="../script/plan-1.js"></script>
+    <script src="../script/plan-2.js"></script>
+    <script src="../script/plan-3.js"></script>
+    <script src="../script/plan-4.js"></script>
+    <script src="../script/plan-5.js"></script>
+    <script src="../script/plan-6.js"></script>
+    <script src="../script/plan-7.js"></script>
+    <script src="../script/massag.js"></script>
+
+    <title>Massaging</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <table>
+                <tr>
+                    <td style="width: 20%;">
+                        <img src="https://bit.ly/3rIq6v8" alt="" class="headerimg">
+
+                    </td>
+
+                    <td>
+
+                        <table>
+                            <tr><span style="margin-left: 36%;font-size: 40px;font-family: Brush Script MT;">Hebron
+                                    University <br></span></tr>
+                            <tr> <span
+                                    style="margin-left: 36%;font-size: 40px;font-family: Brush Script MT;">&nbsp;&nbsp;
+                                    جامعة الخليل</span></tr>
+                        </table>
+
+                    </td>
+
+                    <td style="width: 15%;padding-top: 9rem;padding-left: 1rem;">
+                        <span>Student Name : Mr.Q</span><br>
+                        <span>Student Id : 22011787</span><br>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+        <span><a href="../HTML/0 - Login Page.html" class="log">Log out</a> </span>
+        <div class="menu">
+            <div class="btn-group btn-group-sm">
+                <div class="btn btn-dark"><a href="../HTML/1 - Main Page.html" class="a">Main Page</a></div>
+                <div class="btn btn-dark"><a href="../HTML/2 - Plan.html" class="a">Plan</a></div>
+                <div class="btn btn-dark"><a href="../HTML/3 - Suggestions & Complaints.html" class="a">Suggestions &
+                        Complaints</a></div>
+                <div class="btn btn-dark"><a href="../HTML/4 - Marks.html" class="a">Marks</a></div>
+                <div class="btn btn-dark"><a href="../HTML/5 - Financial Notice.html" class="a">Financial Notice</a>
+                </div>
+                <div class="btn btn-dark"><a href="../HTML/6 - Massaging.html" class="a">Messaging</a></div>
+                <div class="btn btn-dark"><a href="../HTML/7 - Registration.html" class="a">Registration</a></div>
+                <div class="btn btn-dark"><a href="../HTML/8 - Add & Drop.html" class="a">Add & Drop</a></div>
+                <div class="btn btn-dark"><a href="../HTML/15 - Change Password.html" class="a">Change Password</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="body"
+            style="display: flex;flex-direction: column;justify-content: flex-start;align-content: center;flex-wrap: wrap;">
+
+            <div class="top">
+                <form action="/action_page.php">
+                    <p style="text-decoration: underline;font-size: large;color: black;">Massages:</p>
+                    <input onclick="mass1()" type="radio" checked  name="hello" >
+                    <label for="inbox">inbox</label><br>
+                    <input onclick="mass2()" type="radio"  name="hello" >
+                    <label for="sent">Sent messages</label><br>
+
+                </form>
+            </div>
+            <div class="center" style="display: block;" id="inbox">
+                <table class="table table-success table-hover w-100 mt-2">
+
+                    <tr>
+                        <td class="tdmsg"><input type="checkbox"><span>  <img src="https://bit.ly/39rcZIy" width="12px" alt=""> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum omnis a book or other written or printed work .. </span></td>
+                    </tr>
+                    <tr>
+                        <td class="tdmsg"><input type="checkbox"><span>  <img src="https://bit.ly/39rcZIy" width="12px" alt=""> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum omnis a book or other written or printed work .. </span></td>
+                    </tr>
+                    <tr>
+                        <td class="tdmsg"><input type="checkbox"><span>  <img src="https://bit.ly/39rcZIy" width="12px" alt=""> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum omnis a book or other written or printed work .. </span></td>
+                    </tr>
+                    <tr>
+                        <td class="tdmsg"><input type="checkbox"><span>  <img src="https://bit.ly/39rcZIy" width="12px" alt=""> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum omnis a book or other written or printed work .. </span></td>
+                    </tr>
+                    <tr>
+                        <td class="tdmsg"><input type="checkbox"><span>  <img src="https://bit.ly/39rcZIy" width="12px" alt=""> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum omnis a book or other written or printed work .. </span></td>
+                    </tr>
+                    <tr>
+                        <td class="tdmsg"><input type="checkbox"><span>  <img src="https://bit.ly/39rcZIy" width="12px" alt=""> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum omnis a book or other written or printed work .. </span></td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <div class="center" style="display: none;" id="Sent">
+                <div onclick="addMasg()" class="btn btn-info" style="margin-left: 23rem;margin-top: -6rem;">Add Massages <span style="color: rgb(224, 28, 28);">+</span></div>
+
+                <table class="table table-danger table-hover w-100" style="margin-top: -0.5rem!important;">
+
+                    <tr>
+                        <td class="tdmsg"><input type="checkbox"><span>  <img src="https://bit.ly/39rcZIy" width="12px" alt=""> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum omnis a book or other written or printed work .. </span></td>
+                    </tr>
+                    <tr>
+                        <td class="tdmsg"><input type="checkbox"><span>  <img src="https://bit.ly/39rcZIy" width="12px" alt=""> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum omnis a book or other written or printed work .. </span></td>
+                    </tr>
+                    <tr>
+                        <td class="tdmsg"><input type="checkbox"><span>  <img src="https://bit.ly/39rcZIy" width="12px" alt=""> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum omnis a book or other written or printed work .. </span></td>
+                    </tr>
+                    <tr>
+                        <td class="tdmsg"><input type="checkbox"><span>  <img src="https://bit.ly/39rcZIy" width="12px" alt=""> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum omnis a book or other written or printed work .. </span></td>
+                    </tr>
+                  
+                </table>
+            </div>
+
+            <div class="center" style="display: none;" id="addMasg">
+                
+                <div style="margin: 3rem;">
+                    <span>Enter Your Massage : </span><br>
+                    <textarea name="" id="" cols="60" rows="10"></textarea>
+                </div>
+               <div onclick="alert('Your message is Sending Successfully')" class="btn btn-secondary" style="margin-left: 36rem;margin-top: -11rem; width: 10%;">Send</div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="../Boot/bootstrap.min.js"></script>
+    <script src="../Boot/jquery-3.2.1.slim.min.js"></script>
+    <script src="../popper.min.js"></script>
+</body>
+
+</html>

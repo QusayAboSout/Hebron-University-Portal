@@ -1,0 +1,18 @@
+.top{
+    width: 80%;
+    height: 9rem;
+    background: rgb(150, 148, 134);
+    display: block;
+    margin-top: 5rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+.center{
+    width: 80%;
+    height: 30rem;
+    display: block;
+    background: rgba(180, 155, 109, 0.418);
+}
+.tdmsg:hover{
+    cursor: pointer;
+}

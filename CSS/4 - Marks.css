@@ -1,0 +1,46 @@
+
+.Tspan {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-size: medium;
+    padding: 0.5rem;
+}
+
+.thborder {
+    border: 1px white solid;
+}
+.tdborder {
+    border: 2px rgb(15, 61, 15) solid;
+    color: rgb(40, 23, 189);
+    text-align: center;
+}
+.cent{
+    position: absolute;
+    width: 80%;
+    height: 20rem;
+    margin-top: 0rem;
+    margin: 3rem;
+    margin-left: -9rem;
+}
+.tdmarket {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.tdmarketview{
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-decoration: underline;
+    color:rgb(15, 61, 15);
+}
+.tdmarketview:hover{
+    color: red;
+    text-decoration: none;
+}
+.trplan {
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
